@@ -1,0 +1,6 @@
+if SHIELD_mrwhosetheboss
+
+config ZMK_KEYBOARD_NAME
+    default "mrwhosetheboss"
+
+endif
