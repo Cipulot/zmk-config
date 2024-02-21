@@ -3,24 +3,19 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#define BASE 0
-#define BLE 1
-
 / {
         keymap {
             compatible = "zmk,keymap";
 
             base_layer {
-              display-name = "BASE";
               bindings = <
                     &kc A      &kc B    &kc C    &kc D    &kc E    &kc F    &kc G    &kc H    &kc I    &kc J    &kc K    &kc L    &kc M    &kc N    &kc O    &kc P    &kc Q    &kc R
                     &kc S      &kc T    &kc U    &kc V    &kc W    &kc X    &kc Y    &kc Z    &kc 1    &kc 2    &kc 3    &kc 4    &kc 5    &kc 6    &kc 7    &kc 8    &kc 9    &kc 0
-                    &mo BLE    &kc SPC  &kc ENT  &kc BSPC &kc TAB  &kc ESC  &kc F1   &kc F2   &kc F3   &kc F4   &kc F5   &kc F6   &kc F7   &kc F8   &kc F9   &kc F10  &kc F11  &kc F12
+                    &mo 1    &kc SPC  &kc ENT  &kc BSPC &kc TAB  &kc ESC  &kc F1   &kc F2   &kc F3   &kc F4   &kc F5   &kc F6   &kc F7   &kc F8   &kc F9   &kc F10  &kc F11  &kc F12
               >;
             };
 
             ble_layer {
-              display-name = "BLE";
               bindings = <
                     &kc A      &kc B           &kc C             &kc D         &kc E    &kc F    &kc G    &kc H    &kc I    &kc J    &kc K    &kc L    &kc M    &kc N    &kc O    &kc P    &kc Q    &kc R
                     &kc S      &kc T           &kc U             &kc V         &kc W    &kc X    &kc Y    &kc Z    &kc 1    &kc 2    &kc 3    &kc 4    &kc 5    &kc 6    &kc 7    &kc 8    &kc 9    &kc 0

@@ -6,9 +6,6 @@ config ZMK_KEYBOARD_NAME
 config ZMK_USB
 	default y
 
-config ZMK_KEYBOARD_NAME
-    default "Jacket"
-
 config USB_DEVICE_MANUFACTURER
     default "Cipulot"
 
