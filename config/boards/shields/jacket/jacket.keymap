@@ -19,7 +19,7 @@
               bindings = <
                     &kc A      &kc B           &kc C             &kc D         &kc E    &kc F    &kc G    &kc H    &kc I    &kc J    &kc K    &kc L    &kc M    &kc N    &kc O    &kc P    &kc Q    &kc R
                     &kc S      &kc T           &kc U             &kc V         &kc W    &kc X    &kc Y    &kc Z    &kc 1    &kc 2    &kc 3    &kc 4    &kc 5    &kc 6    &kc 7    &kc 8    &kc 9    &kc 0
-                    &trans     &bt BT_CLR      &bt BT_SEL 0      &kc BSPC      &kc TAB  &kc ESC  &kc F1   &kc F2   &kc F3   &kc F4   &kc F5   &kc F6   &kc F7   &kc F8   &kc F9   &kc F10  &kc F11  &kc F12
+                    &trans     &bt BT_CLR      &bt BT_SEL 0      &out OUT_TOG  &kc TAB  &kc ESC  &kc F1   &kc F2   &kc F3   &kc F4   &kc F5   &kc F6   &kc F7   &kc F8   &kc F9   &kc F10  &kc F11  &kc F12
               >;
             };
         };
