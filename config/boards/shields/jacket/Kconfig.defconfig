@@ -1,0 +1,18 @@
+if SHIELD_JACKET
+
+config ZMK_KEYBOARD_NAME
+    default "Jacket"
+
+config ZMK_USB
+	default y
+
+config ZMK_KEYBOARD_NAME
+    default "Jacket"
+
+config USB_DEVICE_MANUFACTURER
+    default "Cipulot"
+
+config BT_DIS_MANUF
+    default "Cipulot"
+
+endif
