@@ -11,7 +11,7 @@
               bindings = <
                     &kp X      &kp V  &kp F1   &kp F3  &kp U  &kp F6      &kp RET    &kp F5  &kp 9   &kp 5       &kp 6     &kp 4   &kp R  &kp BSPC  &kp D  &kp F    &kp DEL   &kp Z
                     &kp C      &kp B  &kp F2   &kp F4  &kp I  &kp F7      &kp LCTRL  &kp 7   &kp 8   &kp 3       &kp 1     &kp 2   &kp T  &kp Y     &kp S  &kp A    &kp CAPS  &kp G
-                    &kp PG_UP  &kp N  &kp M    &kp P   &kp O  &kp PG_DN   &kp END    &kp Q   &kp W   &kp LSHIFT  &kp HOME  &kp E   &kp H  &kp J     &kp K  &kp SPC  &kp I     &mo 1
+                    &kp PG_UP  &kp N  &kp M    &kp P   &kp O  &kp PG_DN   &kp END    &kp Q   &kp W   &kp LSHIFT  &kp HOME  &kp E   &kp H  &kp J     &kp K  &kp SPC  &kp L     &mo 1
               >;
             };
 
