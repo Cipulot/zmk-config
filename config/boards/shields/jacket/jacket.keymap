@@ -9,17 +9,20 @@
 
             base_layer {
               bindings = <
-                    &kp A      &kp B      &kp C      &kp D       &kp E    &kp F    &kp G    &kp H    &kp I    &kp J    &kp K    &kp L    &kp M    &kp N    &kp O    &kp P    &kp Q    &kp R
-                    &kp S      &kp T      &kp U      &kp V       &kp W    &kp X    &kp Y    &kp Z    &kp 1    &kp 2    &kp 3    &kp 4    &kp 5    &kp 6    &kp 7    &kp 8    &kp 9    &kp 0
-                    &mo 1      &kp SPC    &kp RET    &kp BSPC    &kp TAB  &kp ESC  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5   &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &kp F11  &kp F12
+              //   |         LEFT ARM        |          RIGHT ARM       |   LEFT FRONT + 2 back    |   RIGHT FRONT + 1 back      |  BACK  |
+                    &kp X      &kp V  &kp F1   &kp F3  &kp U  &kp F6      &kp RET    &kp F5  &kp 9   &kp 5       &kp 6     &kp 4   &kp R  &kp BSPC  &kp D  &kp F    &kp DEL   &kp Z
+                    &kp C      &kp B  &kp F2   &kp F4  &kp I  &kp F7      &kp LCTRL  &kp 7   &kp 8   &kp 3       &kp 1     &kp 2   &kp T  &kp Y     &kp S  &kp A    &kp CAPS  &kp G
+                    &kp PG_UP  &kp N  &kp M    &kp P   &kp O  &kp PG_DN   &kp END    &kp Q   &kp W   &kp LSHIFT  &kp HOME  &kp E   &kp H  &kp J     &kp K  &kp SPC  &kp I     &mo 1
+              //                                                                    |     BACK     |                       |BACK|
               >;
             };
 
             ble_layer {
-              bindings = <
-                    &kp A      &kp B           &kp C             &kp D         &kp E    &kp F    &kp G    &kp H    &kp I    &kp J    &kp K    &kp L    &kp M    &kp N    &kp O    &kp P    &kp Q    &kp R
-                    &kp S      &kp T           &kp U             &kp V         &kp W    &kp X    &kp Y    &kp Z    &kp 1    &kp 2    &kp 3    &kp 4    &kp 5    &kp 6    &kp 7    &kp 8    &kp 9    &kp 0
-                    &trans     &bt BT_CLR      &bt BT_SEL 0      &out OUT_TOG  &kp TAB  &kp ESC  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5   &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &kp F11  &kp F12
+              //   |         LEFT ARM        |          RIGHT ARM       |   LEFT FRONT + 2 back    |   RIGHT FRONT + 1 back      |  BACK  |
+                    &kp X      &kp V  &kp F1   &kp F3  &kp U  &kp F6      &kp RET    &kp F5  &kp 9   &kp 5       &kp 6     &kp 4   &kp R  &kp BSPC  &kp D  &kp F       &kp DEL       &kp Z
+                    &kp C      &kp B  &kp F2   &kp F4  &kp I  &kp F7      &kp LCTRL  &kp 7   &kp 8   &kp 3       &kp 1     &kp 2   &kp T  &kp Y     &kp S  &kp A       &kp CAPS      &kp G
+                    &kp PG_UP  &kp N  &kp M    &kp P   &kp O  &kp PG_DN   &kp END    &kp Q   &kp W   &kp LSHIFT  &kp HOME  &kp E   &kp H  &kp J     &kp K  &bt BT_CLR  &bt BT_SEL 0  &trans
+              //                                                                    |     BACK     |                       |BACK|
               >;
             };
         };
