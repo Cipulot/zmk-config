@@ -6,10 +6,4 @@ config ZMK_KEYBOARD_NAME
 config ZMK_USB
 	default y
 
-config USB_DEVICE_MANUFACTURER
-    default "Cipulot"
-
-config BT_DIS_MANUF
-    default "Cipulot"
-
 endif
