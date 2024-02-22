@@ -9,17 +9,17 @@
 
             base_layer {
               bindings = <
-                    &kc A      &kc B    &kc C    &kc D    &kc E    &kc F    &kc G    &kc H    &kc I    &kc J    &kc K    &kc L    &kc M    &kc N    &kc O    &kc P    &kc Q    &kc R
-                    &kc S      &kc T    &kc U    &kc V    &kc W    &kc X    &kc Y    &kc Z    &kc 1    &kc 2    &kc 3    &kc 4    &kc 5    &kc 6    &kc 7    &kc 8    &kc 9    &kc 0
-                    &mo 1    &kc SPC  &kc ENT  &kc BSPC &kc TAB  &kc ESC  &kc F1   &kc F2   &kc F3   &kc F4   &kc F5   &kc F6   &kc F7   &kc F8   &kc F9   &kc F10  &kc F11  &kc F12
+                    &kp A      &kp B    &kp C    &kp D    &kp E    &kp F    &kp G    &kp H    &kp I    &kp J    &kp K    &kp L    &kp M    &kp N    &kp O    &kp P    &kp Q    &kp R
+                    &kp S      &kp T    &kp U    &kp V    &kp W    &kp X    &kp Y    &kp Z    &kp 1    &kp 2    &kp 3    &kp 4    &kp 5    &kp 6    &kp 7    &kp 8    &kp 9    &kp 0
+                    &mo 1      &kp SPC  &kp ENT &kp BSPC &kp TAB  &kp ESC  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5   &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &kp F11  &kp F12
               >;
             };
 
             ble_layer {
               bindings = <
-                    &kc A      &kc B           &kc C             &kc D         &kc E    &kc F    &kc G    &kc H    &kc I    &kc J    &kc K    &kc L    &kc M    &kc N    &kc O    &kc P    &kc Q    &kc R
-                    &kc S      &kc T           &kc U             &kc V         &kc W    &kc X    &kc Y    &kc Z    &kc 1    &kc 2    &kc 3    &kc 4    &kc 5    &kc 6    &kc 7    &kc 8    &kc 9    &kc 0
-                    &trans     &bt BT_CLR      &bt BT_SEL 0      &out OUT_TOG  &kc TAB  &kc ESC  &kc F1   &kc F2   &kc F3   &kc F4   &kc F5   &kc F6   &kc F7   &kc F8   &kc F9   &kc F10  &kc F11  &kc F12
+                    &kp A      &kp B           &kp C             &kp D         &kp E    &kp F    &kp G    &kp H    &kp I    &kp J    &kp K    &kp L    &kp M    &kp N    &kp O    &kp P    &kp Q    &kp R
+                    &kp S      &kp T           &kp U             &kp V         &kp W    &kp X    &kp Y    &kp Z    &kp 1    &kp 2    &kp 3    &kp 4    &kp 5    &kp 6    &kp 7    &kp 8    &kp 9    &kp 0
+                    &trans     &bt BT_CLR      &bt BT_SEL 0      &out OUT_TOG  &kp TAB  &kp ESC  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5   &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &kp F11  &kp F12
               >;
             };
         };
